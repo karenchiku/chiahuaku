@@ -1,0 +1,118 @@
+.main {
+    padding: 0 5rem;
+    min-height: 600px;
+  }
+
+.title{
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.introcontainer{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.introdesc{
+    width: 40%;
+    padding:0 2rem;
+    padding-bottom: 2rem;
+    position: relative;
+    min-height: 300px;
+}
+
+.readmoreline{
+    background-color: #FCF9F4;
+    margin: 0;
+    border-top: 2px solid #383838;
+  }
+  
+.code {
+    background: #acacac;
+    border-radius: 5px;
+    padding: 0.75rem;
+    font-size: 1.1rem;
+    font-family: Menlo, Monaco, Lucida Console, Liberation Mono,
+      DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace;
+  }
+  .grid{
+    display: flex;
+    justify-content: center;
+  }
+
+  .smalltext{
+    color: #8f8f8f;
+    font-size: small;
+  }
+  .detail{
+    padding-left: 1.5rem;
+  }
+  .focusskill{
+    color: #D34127;
+  }
+
+  .intro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+  }
+
+  .left{
+    width: 40%;
+    margin: 0;
+    
+  }
+  .right{
+    width: 60%;
+    margin: 2rem;
+  }
+
+  .learnmorebutton{
+
+    display:inline-block;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    background-color: #000;
+    color: #fff;
+    /* border-radius: 10px; */
+    position: absolute;
+    bottom:1rem;
+    right: 3rem;
+
+  }
+
+  .learnmorebutton:hover{
+    color: #000;
+    background-color: #FFF2F2;
+    border: 1px solid #000;
+  }
+
+  @media only screen and (min-width: 320px) and (max-width: 768px) {
+    .introcontainer{
+      width: 100%;
+  }
+
+  .introdesc{
+    width: 100%;
+    padding-bottom: 4rem;
+}
+    .intro{
+        display: block;
+    }
+    .left{
+        width: 100%;
+    }
+
+    .right{
+        width: 100%;
+        margin-left: 0;
+        margin-top: 1rem;
+      }
+
+   
+}
+

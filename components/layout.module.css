@@ -1,0 +1,23 @@
+.container {
+  padding: 0;
+  margin: 0;
+
+}
+.main{
+  max-width: 85rem;
+  margin: 0 auto;
+}
+
+
+.backtotop{
+  position:fixed;
+  bottom: 4rem;
+  right: 0;
+  padding: 0.5rem 0rem;
+  writing-mode: vertical-rl;
+  text-orientation: sideways;
+  transform: rotate(-180deg);
+  background-color: #fff;
+}
+
+  
