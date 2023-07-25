@@ -39,8 +39,8 @@ export default function Home() {
 
           <h3>Education</h3>
           <div className={chiahuakustyle.readmoreline}></div>
-          <p>B.S.,Applied Mathematic, National Chengchi University ( 政治大學 ) 2004 - 2008 </p>
-          <p>M.S.,Industrial Engineering,  National Chiao Tung University ( 交通大學 ) 2008 - 2010 </p>
+          <p>B.S.,Applied Mathematic, National Chengchi University 2004 - 2008 </p>
+          <p>M.S.,Industrial Engineering,  National Chiao Tung University 2008 - 2010 </p>
 
 
         </div>
