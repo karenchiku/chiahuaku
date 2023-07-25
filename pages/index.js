@@ -26,7 +26,7 @@ export default function Home() {
             <p>10+ years Cloud Data Services and Data Analytics Experience, recently focusing on Advanced Analytics. I have development experience in a different field including manufacturing industry, internet industry, retailer. Moreover, I have problem solving, strong knowledge on Cloud Platform, Business Intelligence, Machine Learning. Please feel free to connect with me. </p>
             
             <Link href="/work">
-              <div className={chiahuakustyle.learnmorebutton}>More About</div>
+              <div className={chiahuakustyle.learnmorebutton}>Read More</div>
             </Link>
 
           </div>
