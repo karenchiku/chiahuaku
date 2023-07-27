@@ -108,8 +108,8 @@ export default function Home() {
           <h3>Projects</h3>
           <div className={chiahuakustyle.readmoreline}></div>
           <p>● Generative Art</p>  
-          <p>●	Generative art SUM on the Tezos <Link href="https://www.fxhash.xyz/generative/slug/sum"> ( Link Here) </Link> </p>
-          <p>Website Project</p>
+          {/* <p>●	Generative art SUM on the Tezos <Link href="https://www.fxhash.xyz/generative/slug/sum"> ( Link Here) </Link> </p> */}
+          <p>● Website Project</p>
           <p>●蒔心私廚 A private resturant's blog and booknow website. Build on NextJS<Link href="https://murmurur.com"> ( Link Here) </Link></p>
           <p>●AccentCoach A privae american accent tutor's online booknow website. Build on NextJs<Link href="https://accentcoach.com"> ( Link Here) </Link></p>
         </div>
